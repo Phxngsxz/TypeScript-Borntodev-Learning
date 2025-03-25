@@ -1,15 +1,27 @@
-var myName: string = "Phongsaphon somsin";
+const age_name = "My app";
+const app_version = "1.0.0";
+const myArray: number[] = [1,2,3];
+let myArray2: any[] = [1,2,3, "Hello"];
 
-console.log(myName);
-console.log(typeof(myName));
+function sayHello(){
+    if(true){
+        var myName: string = "Bob";
+        var myAge: number;
+        var canVote = true;
+        var i;
+    }
+    console.log(myName);
+}
 
-var money: number = 100;
-console.log(money);
-console.log(typeof(money));
+enum WorkStatus {
+    Task = 1,
+    Working,
+    Donw
+}
 
-console.log(null === undefined);
-console.log(null == undefined);
-console.log(null === null);
+let employee: [number, string, boolean][] = [[1, "Mister P",true],[2, "Mister A",false]]
+console.log(employee);
+employee.push([3, "Mister B", true]);
+console.log(employee);
 
-
-
+    
